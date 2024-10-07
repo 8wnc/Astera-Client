@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "astera",
+  "version": "${version}",
+  "name": "AsteraClient",
+  "description": "Best client for you.",
+  "authors": [
+    "Tinkoprof",
+    "8wnc"
+  ],
+  "contact": {
+    "discord": "discord.gg/TNWkRcYa8C"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "accessWidener": "astera.accesswidener",
+  "entrypoints": {
+    "client": [
+      "net.team.astera.AsteraClient"
+    ],
+    "main": [
+      "net.team.astera.AsteraClient"
+    ]
+  },
+  "mixins": [
+    "astera.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

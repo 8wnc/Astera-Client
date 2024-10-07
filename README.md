@@ -1,2 +1,2 @@
 # Astera-Client
-Astera-Client buildable src
+asteraclient buildable src
